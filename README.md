@@ -108,3 +108,11 @@ Armazena as informações das entregas associadas a uma compra.
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/joao-delivery-db.git
+2. Execute os scripts SQL no seu sistema de banco de dados.
+3. Configure o seu aplicativo para conectar ao banco de dados.
+
+## Contribuições
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request.
+
+## Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.   
