@@ -6,6 +6,7 @@ drop_table(
     table_name="produtos"
 )
 
+create_table(
     database='mydatabase',
     table_name='cliente',
     columns_desc="""
@@ -100,6 +101,7 @@ create_table(
         FOREIGN KEY(id_entregador) REFERENCES entregador(id_entregador)
     """
 )
+
 insert_one_row(
    database_name='mydatabase',
     table_name='entregador',
